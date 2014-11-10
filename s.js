@@ -226,7 +226,7 @@ var dirPage = '<html>\n\
     </table>\n\
     </div>\n\
   </div>\n\
-  <div class="footer"><hr/>Powered by SingleFile, <a href="https://github.com/supnate/singlefile">http://github.com/supnate/singlefile</a></div>\n\
+  <div class="footer"><hr/>Powered by Single, <a href="https://github.com/supnate/single">http://github.com/supnate/single</a></div>\n\
 </body>\n\
 </html>\n\
 \n\
