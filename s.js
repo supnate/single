@@ -300,8 +300,8 @@ function sort(col){\n\
   else render(data);\n\
   //update sorting indicators\n\
   each(grid.rows[0].cells, function(cell){\n\
-    cell.innerHTML = cell.innerHTML.replace(/ *[↑↓]$/g, '')\n\
-      + (cell.cellIndex == sortData.col ? (sortData.desc ? ' ↓' : ' ↑') : '');\n\
+    cell.innerHTML = cell.innerHTML.replace(/ *[\\u2191\\u2193]$/g, '')\n\
+      + (cell.cellIndex == sortData.col ? (sortData.desc ? ' \\u2191' : ' \\u2193') : '');\n\
   });\n\
 }\n\
 function filter(){\n\
