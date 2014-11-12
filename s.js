@@ -164,8 +164,10 @@ Server.prototype = {
         ].join('');
       }).join('');
 
+      var arr = req.url.split('/'), folderName = arr[arr.length - 2] || 'root'
       var context = {
         path: rp
+        ,title: decodeURIComponent(folderName)
         ,rows: rows
       };
 
